@@ -1,0 +1,51 @@
+Xpath запросы
+
+hh.ru 
+
+//a[text()='Информационные технологии, интернет, телеком']
+
+//span[contains(@class, 'bloko-social-icon_vk')]
+
+//div[contains(text(), '2022 Гру')]
+
+//div[contains(@class, 'footer-mobile-banner-qr')]
+
+//span[contains(@class, 'bloko-text')][contains(text(), '109')]
+
+habr.com
+
+//div[contains(text(), 'Турбо')][contains(@class, 'link__label')]
+
+//use[contains(@xlink:href, 'logo-telegram')]
+
+//a[contains(@class, 'tm-svg-icon')][contains(@href, 'telegram')]/*/*[2]
+
+//a[contains(@href, 'ru/search')]/*
+
+//h2[contains(text(), 'Лучшие блоги')]
+
+https://itvdn.com/ru
+
+//span[contains(text(), 'Служба поддержки')]
+
+//div[contains(@class, 'top-header-block')]//span[contains(@class, 'itvdnicon-find')]
+
+//span[contains(text(), '22:30')][contains(@data-date, '2022-11-24T17')]
+
+//div[@class="header-letter-img"]/*
+
+//div[contains(text(), 'на рассылку')]
+
+https://software-testing.ru/forum/
+
+//a[contains(@href, 'software-testing')][contains(text(), 'Портал')]
+
+//img[contains(@alt, 'RSS')]
+
+//div[contains(@class, 'xX20u041au043')]//img[contains(@alt, 'Иконка')]
+
+//a[contains(text(), 'Форумы проектов')][contains(@title, 'Просмотр')]
+
+//a[contains(text(), 'новых публикаций')]
+
+
